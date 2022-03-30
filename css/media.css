@@ -1,0 +1,315 @@
+/* для экранов до 1610*/
+@media (max-width: 1610px) {
+    .card {
+        width: calc(50% - 8px);
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+   
+}
+
+/* для экранов до 1300*/
+@media (max-width: 1300px) {
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-bottom: 50px;
+    }
+
+    .footer-contacts {
+        margin-bottom: 45px;
+    }
+
+    .footer-copyright p {
+        margin-left: 5px;
+        font-size: 22px;
+    }
+
+    .footer-copyright-name {
+        
+        font-size: 40px;
+        line-height: 59px;
+    }
+
+    .footer-button {
+        margin-top: 15px;
+    }
+
+    .footer-contacts p {
+        max-width: 3094px;
+        margin-bottom: 0;  
+    }
+
+    .footer-social {
+     margin-right: 3px;   
+    }
+
+    .footer-icons-img > * + * {
+        margin-left: 18px;
+    }
+
+    
+
+}
+/* для экранов до 1200*/
+@media (max-width: 1200px) {
+    .portfolio {
+        padding-top: 150px;   
+        padding-bottom: 100px;
+    }   
+    .portfolio-header {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    .card-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .project-header {
+    font-size: 64px;
+    }
+}
+
+
+
+/* для экранов до 900*/
+@media (max-width: 900px) {
+    .card {
+         width: 100%;
+    }
+    .portfolio-class-wrapper {
+        justify-content: center;
+    }
+
+    .card-link{
+        padding: 20px;
+    }
+
+    .card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .card p {
+        font-size: 20px;
+    }
+
+    .footer-social p {
+        margin: 0;
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .project-header {
+        font-size: 58px;
+    }
+
+    .container-project p {
+        margin: 0;
+        margin-bottom: 50px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 10px;
+    }
+}
+
+
+/* для экранов до 760*/
+@media (max-width: 760px) {
+    .header-title {
+        font-size: 48px;
+        line-height: 130%;
+    }
+    .portfolio {
+        padding-top: 100px;   
+        padding-bottom: 100px;
+    }   
+    .portfolio-header {
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+
+    .footer-social p {
+        margin: 0;
+        margin-bottom: 18px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+}
+
+/* для экранов до 500*/
+@media (max-width: 500px) {
+    .header-title {
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    .header-subtitle {
+     font-size: 18px;
+     line-height: 170%;
+    }
+
+    .card-link{
+        padding: 15px;
+    }
+
+    
+    .card-title {
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+        font-size: 24px;
+        line-height: 34px;   
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .footer-copyright p {
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .footer-copyright-name {
+        
+        font-size: 36px;
+        line-height: 59px;
+    }
+
+    .footer-button {
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 12px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    }
+
+    .footer-contacts p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-social p {
+        font-size: 22px;
+    }
+
+    .portfolio {
+        padding-top: 75px;
+        padding-bottom: 100px;
+    }
+
+    .portfolio-header {
+      font-size: 32px;  
+      margin-bottom: 30px;
+    }
+
+}
+
+/* для экранов до 400*/
+@media (max-width: 400px) {
+    .card-link{
+        padding: 10px;
+    }
+    .card-title {
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        font-size: 20px;
+        line-height: 26px;   
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .footer-copyright p {
+        margin-left: 5px;
+        margin-top: 2px;
+        font-size: 20px;
+    }
+
+    .footer-copyright-name {
+        
+        font-size: 32px;
+        line-height: 59px;
+    }
+
+    .footer-button {
+        height: 70px;
+        margin-top: 5px;
+        border-radius: 12px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-top: 23px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 29px;
+        }
+    
+        .footer-contacts p {
+            max-width: 280px;
+            font-size: 12px;
+            margin-top: 15px;
+            line-height: 18px;
+        }
+
+        .footer-social p {
+            margin: 0;
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px;
+        }
+
+        .none {
+            display: none !important;  
+          }
+}
+
+/* для экранов до 345*/
+@media (max-width: 345px) {
+    .header-title {
+        font-size: 26px;
+        line-height: 130%;
+    }
+    .header-subtitle {
+        font-size: 14px;
+        line-height: 200%;       
+    }
+
+    .footer-copyright p {   
+       font-size: 14px;
+       line-height: 5px;
+    }
+
+    .footer-copyright-name {
+        
+        font-size: 26px;
+        line-height: 59px;
+    }
+
+   
+    
+    
+}
+
+
+
+
